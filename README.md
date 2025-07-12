@@ -67,6 +67,13 @@
     git fetch origin
 ```
 
+- If your remote Repo is ahead, of local
+```cmd
+    git pull origin main --rebase
+    git push origin main
+```
+
+
 ### BRANCHING & MERGING
 
 - Create & Switch Branch
